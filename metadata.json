@@ -1,0 +1,6 @@
+{
+  "name": "سیرت و اسلامیات آڈیو لائبریری",
+  "description": "باب وار اردو اسلامی مضامین اور غزوات کی آڈیو لائبریری — سنیں اور ڈاؤن لوڈ کریں۔",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

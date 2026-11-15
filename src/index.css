@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-urdu-display: "Noto Nastaliq Urdu", "Noto Naskh Arabic", serif;
+    --font-urdu-body: "Noto Naskh Arabic", "Noto Nastaliq Urdu", serif;
+    --font-ui: "Plus Jakarta Sans", system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
+  }
+
+  body {
+    font-family: var(--font-urdu-body);
+    background-color: #fbf9f5;
+    color: #1c1917;
+  }
+}
+
+.font-urdu-display {
+  font-family: var(--font-urdu-display);
+  line-height: 2.15;
+}
+
+.font-urdu-body {
+  font-family: var(--font-urdu-body);
+  line-height: 2;
+}
+
+.font-ui {
+  font-family: var(--font-ui);
+}
+
+.font-mono-nums {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
